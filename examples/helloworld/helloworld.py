@@ -1,7 +1,7 @@
 import cherrypy
 
 class helloworld(object):
-    # this is called when you do http://localhost:8080/ or http://192.168.0.109:8080/
+    # this is called when you do http://localhost:8080/ or http://192.168.0.109:8080/ or http://localhost/index or http://192.168.0.101/index.
     @cherrypy.expose
     def index(self):
        return "Hello World!"

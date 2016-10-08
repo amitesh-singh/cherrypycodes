@@ -126,7 +126,7 @@ class Watering(object):
         timeformat = "%H:%M:%S"
         dateformat = "%d/%m/%Y"
 
-        self.timelog = time.strftime(timeformat) + " " + time.strftime(dateformat)
+        self.timelog = time.strftime(dateformat) + " " + time.strftime(timeformat)
 
         fromaddr = "ok@gmail.com"
         toaddr = ["ok@gmail.com", "notok@gmail.com"]
